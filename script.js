@@ -59,7 +59,7 @@ window.onload = function() {
                 this.style.backgroundColor="navy"});
 
         ficha.addEventListener("mouseout", function() {
-            this.style.backgroundColor = "rgb(20, 20, 54)";
+            this.style.backgroundColor = "#151A24";
         });
     }
 
@@ -103,7 +103,7 @@ function guardarFavorito (nombre) {
 
 for (ficha of fichas ){
     var favorito = document.createElement("button")
-    favorito.textContent = "⭐ Favorito";
+    favorito.textContent = "★ Favorito";
     favorito.classList.add("boton-general")
     ficha.appendChild(favorito);
     favorito.addEventListener("click",function(){
